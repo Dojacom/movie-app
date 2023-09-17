@@ -1,0 +1,26 @@
+.sidebar{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    justify-content: space-between;
+    left: 0;
+    background: #fff;
+    transition: .3s;
+    border: 0 24px 0 24px;
+}
+.sidebar-items li{
+    list-style: none;
+}
+.nav-list{
+    display: flex;
+
+}
+.active{
+    background: #be123c1a;
+    color: white;
+}

@@ -1,0 +1,18 @@
+.main{
+    position: relative;
+    height:calc(100vh - 70px);
+    
+}
+
+.main-container{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: calc(100% - 300px);
+    padding: 30px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #d4c7c7;
+    z-index: 2;
+}
